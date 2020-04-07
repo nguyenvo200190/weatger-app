@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    color: #555;
+    #background-color: aqua;
+    font-family: Open Sans;
+    font-size: 16px;
+    position: relative;
+    height: 100vh;
+    font-weight: 400;
+}
+
+.right { float: right; }
+.red { color: #FF5049 !important; }
+.red-focus:focus { border: 1px solid #FF5049 !important; }
+
+
+
+
+
+/*Top*/
+.top{
+    height: 30hv;
+}
+.login{
+    padding: 20px;
+    border-bottom: 1px solid white;
+    background-color: lightgreen;
+}
+.login_container{
+    margin: 0 auto;
+    text-align: right;
+}
+.login__email,
+.login__password {
+    border: 1px solid white;
+    background-color: #fff;
+    color: inherit;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 12px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: border 0.3s;
+}
+.login__submit {
+    #border: 1px solid black;
+    font-size: 14px;
+    background: black;
+    border: none;
+    color: #28B9B5;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.1;
+    margin-left: 10px;
+    padding: 12px 15px;
+    border-radius: 5px;
+}
+.login__forgot{
+   padding-right: 390px;
+}
+.bottom{
+    #border: 1px solid black;
+    background-color: blue;
+    margin-left:10%;
+    width: 80%;
+    
+}
+.bottom__left{
+    #border: 1px solid blue;
+    width: 40%;
+    margin-top: 100px;
+    float:left;
+    
+}
+.bottom__right{
+    margin-top: 80px;
+    margin-left: 20%;
+    float: right;
+    width: 40%;
+}
+#bottom__left__top{
+    text-align: center;
+
+}
+.bottom__left__image{
+    padding: 30px;
+}
+
+.bottom_right_text,
+.bottom_right_email,
+.bottom_right_pass
+{
+    border: 1px solid gray;
+    background-color: #fff;
+    color: inherit;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 12px 15px;
+    #margin-right: 10px;
+    border-radius: 5px;
+    transition: border 0.3s;
+    margin-top: 30px;
+}
+.bottom_right_sign{
+    background-color: black;
+    width: 100px;
+    font-size: 14px;
+    color: aliceblue;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
